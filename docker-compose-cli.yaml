@@ -12,7 +12,7 @@ services:
       - CORE_CHAINCODE_KEEPALIVE=10
       - CORE_PEER_TLS_ENABLED=true
       - CORE_PEER_TLS_ROOTCERT_FILE=/opt/home/managedblockchain-tls-chain.pem
-      - CORE_PEER_LOCALMSPID=m-CW6VPHQPKZGOPLNLN7DA6DXK7Y	
+      - CORE_PEER_LOCALMSPID=m-CW6VPHQPKZGOPLNLN7DA6DXK7Y
       - CORE_PEER_MSPCONFIGPATH=/opt/home/admin-msp
       - CORE_PEER_ADDRESS=nd-buny74bo3fcwbe6jnvzmyrcq74.m-cw6vphqpkzgoplnln7da6dxk7y.n-vfsl7eytmvhinpjth4g4ypu22y.managedblockchain.ap-southeast-1.amazonaws.com:30006
     working_dir: /opt/gopath/src/github.com/hyperledger/fabric/peer
